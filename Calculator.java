@@ -11,7 +11,7 @@ public class Calculator{
 
         System.out.println(" The Result is  "   + (num1 + num2));
 
-        System.out.println("Would you like to perform addition or subtraction");
+        System.out.println("Would you like to perform addition, subtraction, multiplication or division");
 
         scan.nextLine();
         String output = scan.nextLine();
@@ -22,6 +22,12 @@ public class Calculator{
             break;
         case "subtraction":
             System.out.println(num1 - num2);
+            break;
+        case "multiplication":
+            System.out.println(num1*num2);
+            break;
+        case "division":
+            System.out.println(num1/num2);
             break;
 
        }
