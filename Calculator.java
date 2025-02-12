@@ -11,17 +11,20 @@ public class Calculator{
 
         System.out.println(" The Result is  "   + (num1 + num2));
 
-        // System.out.println("Would you like to perform addition or subtraction");
+        System.out.println("Would you like to perform addition or subtraction");
 
-        // String output = scan.nextLine();
+        scan.nextLine();
+        String output = scan.nextLine();
         
-        // if(output.toLowerCase().equals("addition")){
-        //     System.out.println(num1 + num2);
-        // }else if (output.toLowerCase().equals("subtraction")) {
-        //     System.out.println(num1 - num2);
-            
-        // }
+       switch(output){
+        case "addition":
+            System.out.println(num1 + num2);
+            break;
+        case "subtraction":
+            System.out.println(num1 - num2);
+            break;
 
+       }
 
 
     }
