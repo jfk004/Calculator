@@ -27,7 +27,11 @@ public class Calculator{
             System.out.println(num1*num2);
             break;
         case "division":
-            System.out.println(num1/num2);
+            if(num2 == 0){
+                System.out.println("Math Error");
+            }else {
+                System.out.println(num1/num2);
+            }
             break;
 
        }
