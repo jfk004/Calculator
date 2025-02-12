@@ -6,8 +6,8 @@ public class Calculator{
     Scanner scan = new Scanner(System.in);
 
     System.out.println("Enter two whole numbers");
-        int num1 = scan.nextInt();
-        int num2 = scan.nextInt();
+        float num1 = scan.nextFloat();
+        float num2 = scan.nextFloat();
 
         System.out.println(" The Result is  "   + (num1 + num2));
 
