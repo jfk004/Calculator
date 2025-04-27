@@ -30,6 +30,7 @@ public class Calculator{
             if(num2 == 0){
                 System.out.println("Math Error");
             }else {
+
                 System.out.println(num1/num2);
             }
             break;
